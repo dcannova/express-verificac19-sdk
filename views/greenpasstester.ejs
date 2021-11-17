@@ -1,0 +1,16 @@
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+    <h1><%= title %></h1>
+    <p class="content">
+        Inserire un codice rawcode per ottenere il risultato json dal webservice con endpoint /greenpassdecoder.
+        Il parametro da inviare in GET è la stringa rawcode di tipo HC1:...
+    </p>
+    <form action="/greenpassdecoder">
+        <label for="rawcode">rawcode:</label>
+        <textarea placeholder="HC1:..." type="text" name="rawcode" id="rawcode" required></textarea>
+        <button>submit</button>
+    </form>
+    <%- include('./partials/footer.ejs') %>  
+</body>
+</html>

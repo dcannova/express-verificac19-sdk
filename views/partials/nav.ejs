@@ -1,0 +1,9 @@
+<nav>
+    <ul>
+    <% if (menu.length > 0) { %>
+        <% menu.forEach(m => { %>
+            <li><a href="<%= m.url %>"><%= m.name %></a></li>
+        <% }) %>
+    <% } %>
+    </ul>
+</nav>
