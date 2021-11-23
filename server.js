@@ -19,7 +19,7 @@ const menu = [
     {name: 'Green Pass Tester', url: '/greenpasstester'}
 ];
 
-// home
+// home 
 app.get('/', (req, res) => {
     res.render('index', {title: 'Home Node Server', menu: menu});
 });
