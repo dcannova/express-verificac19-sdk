@@ -1,3 +1,3 @@
-# Simple node express server
+# Simple node express/ejs server
 
-A simple Express server to test the green pass validator for the Covide 19.
+A simple Express server to test the green pass validator used for the Covid 19.
